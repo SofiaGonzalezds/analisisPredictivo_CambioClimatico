@@ -1,13 +1,15 @@
-# analisisPredictivo_CambioClimatico
-Este repositorio presenta un análisis exploratorio y predictivo de una base de la datos de Spotify realizado por Sofía González del Solar en el marco del segundo examen de la materia "Análisis Predictivo Avanzado". 
-Este repositorio contiene:
+# Climate Change Predictive Analysis
 
-- Archivo climateChange.csv: Contiene la base de datos de entrenamiento utilizada para desarrollar y ajustar el modelo.
+This repository presents an exploratory and predictive analysis of a climate change dataset, carried out by Sofía González del Solar as part of the second exam for the course "Advanced Predictive Analysis".
 
-- Archivo ExperimentacionSerieTemporal.ipynb : Este archivo contiene código en Python que muestra el análisis exploratorio de datos. Incluye un análisis geográfico utilizando librerías GIS y la exploración de distintos métodos para la predicción de series de tiempo.
+This repository contains:
+
+- **ClimateChange.csv**: Contains the training dataset used to develop and tune the model.
+
+- **time_series_experimentation.ipynb**: Python notebook presenting the exploratory data analysis. It includes a geographic analysis using GIS libraries and the exploration of different methods for time series forecasting.
   
-- Archivo ModeloFinal.ipynb: Código en Python que presenta el proceso y el modelo final utilizado para realizar la preficcion final.
+- **final_model.ipynb**: Python notebook presenting the process and final model used to generate the final prediction.
   
-- Archivo PDF de Presentación: Un documento que resume de manera clara y visual los hallazgos más relevantes y las conclusiones obtenidas durante el análisis y la predicción.
+- **presentacionCambioClimatico.pdf**: A document that clearly and visually summarizes the most relevant findings and conclusions obtained throughout the analysis and prediction process.
 
-Además de estos archivos, se llevó a cabo el deploy del modelo mediante la librería Streamlit. Esto resultó en una página web que permite a los usuarios seleccionar un país incluido en el dataset y la cantidad de meses a futuro que desean predecir, devolviendo las predicciones correspondientes. Esta adición proporciona una interfaz interactiva que permite a los usuarios interactuar con el modelo creado.
+In addition to these files, the model was deployed using the Streamlit library. This resulted in a web application that allows users to select a country included in the dataset and the number of future months they want to forecast, returning the corresponding predictions. This addition provides an interactive interface that allows users to interact with the developed model.
