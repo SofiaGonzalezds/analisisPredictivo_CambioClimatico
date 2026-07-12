@@ -6,7 +6,7 @@ This repository contains:
 
 - **ClimateChange.csv**: Contains the training dataset used to develop and tune the model.
 
-- **time_series_experimentation.ipynb**: Python notebook presenting the exploratory data analysis. It includes a geographic analysis using GIS libraries and the exploration of different methods for time series forecasting.
+- **TP2_ExperimentacionSerieTemporal.ipynb**: Python notebook presenting the exploratory data analysis. It includes a geographic analysis using GIS libraries and the exploration of different methods for time series forecasting.
   
 - **final_model.ipynb**: Python notebook presenting the process and final model used to generate the final prediction.
   
